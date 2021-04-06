@@ -25,6 +25,9 @@ npm start
 ```
 This will allow you to run your project in your local host port
 
+## Run
+Code runs locally in port 5000 (localhost:5000 in a browser)
+
 ## Task
 To replicate a blog page using Wordpress API and Vanilla Framework
 
