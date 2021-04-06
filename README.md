@@ -12,13 +12,14 @@ npm install axios body-parser ejs express
 ```
 Run vanilla framework
 ```terminal
-npm vanilla framework
+npm install vanilla framework
 ```
 For nodemon (restarts server everytime there is a change in the project)
 ```terminal
 npm install --save-dev-nodemon
 ```
-In the package.json file add "start":"nodemon filename.js"
+In the package.json file add "start":"nodemon *filename*.js"
+After creating the server in *filename*.js 
 
 ## Task
 To replicate a blog page using Wordpress API and Vanilla Framework
