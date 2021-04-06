@@ -18,7 +18,7 @@ For nodemon (restarts server everytime there is a change in the project)
 ```terminal
 npm install --save-dev-nodemon
 ```
-In the package.json file add "start":"nodemon *filename*.js"
+In the package.json file add "start":"nodemon *filename*.js". <br>
 After creating the server in *filename*.js you can run the below in the terminal
 ```terminal
 npm start
