@@ -19,7 +19,11 @@ For nodemon (restarts server everytime there is a change in the project)
 npm install --save-dev-nodemon
 ```
 In the package.json file add "start":"nodemon *filename*.js"
-After creating the server in *filename*.js 
+After creating the server in *filename*.js you can run the below in the terminal
+```terminal
+npm start
+```
+This will allow you to run your project in your local host port
 
 ## Task
 To replicate a blog page using Wordpress API and Vanilla Framework
