@@ -1,7 +1,7 @@
 const express = require('express')
 
 const app = express()
-const port = 5000
+const port = process.env.PORT || 5000;
 
 //static files
 app.use(express.static('css'))
@@ -16,7 +16,7 @@ const newsRouter = require('./routes/news')
 //frontpage using router
 app.use('/', newsRouter)
 
-//listening on port 4000
+//listening on port 5000
 app.listen(port, () => console.log(`Listening on port ${port}`))
 
 
